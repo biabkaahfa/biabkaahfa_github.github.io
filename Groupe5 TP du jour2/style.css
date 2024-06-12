@@ -1,0 +1,54 @@
+/* On va essayer de placer le "Gmail" et le "Images" a droite de la page */
+.information{
+    text-decoration: none;
+    text-align: right;
+}
+/* On placera la barre de recherche et les logos de recherche et microphone au centre avec une hauteur de 300px  */
+.recherche{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-content: center;
+}
+/* On placera le logo de Google au Centre de la page */
+#center{
+    padding: 50px;
+    align-items: center;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+/* Pour ameliorer le champ de saisie avec une bordure de couleur blanche et une hauteur de 40px */
+input{
+    margin: 0;
+    height: 40px;
+    border-radius: 20px rgb(255, 255, 255);
+    
+}
+/* Ceci permettra de placé le contenue du bloc1 et du bloc2 sur la mème ligne */
+.conteiner{
+    display: flex;
+}
+/* le contenue du bloc1 reste a gauche et que chaque sera espacé de 10px */
+.bloc1{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    word-spacing: 10px;
+}
+/* idem pour le bloc2 mais il sera placé a droite de la page */
+.bloc2{
+    margin-left: auto;
+    word-spacing: 10px;
+}
+nav,a{
+    text-decoration: none;
+}
+.button-conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button1{
+    margin-right: 10px;
+}
